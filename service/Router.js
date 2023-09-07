@@ -30,8 +30,8 @@ const Router = {
 
     switch (route) {
       case "/":
-        pageElement = document.createElement("h1");
-        pageElement.textContent = "Home Page";
+           pageElement = document.createElement("menu-page");
+        
         break;
 
       case "/order":
