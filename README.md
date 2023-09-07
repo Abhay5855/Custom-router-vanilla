@@ -7,6 +7,7 @@ A custom router using Vanilla JS.
 3. The browser's back and front buttons can navigate accordingly.
 4. Change the content based on the URL.
 5. Dynamically change the URL just like react-router-dom.
+6. Custom html element using web-components.
 
 ## TECH-STACK
 Vanilla JS.
