@@ -109,12 +109,8 @@ const Router = {
                 pageElement = document.createElement("order-page");
                 break;
 
-            case "/product":
-              console.log("Product page");
-               pageElement = document.createElement("menu-page");
-              break;
             default:
-                if (route.startsWith("/p")) {
+                if (route.startsWith("/product-")) {
                     console.log("This is product page");
                     pageElement = document.createElement("details-page");
                     const paramId = route.substring(route.lastIndexOf("-")+1);

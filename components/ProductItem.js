@@ -1,7 +1,7 @@
 export class ProductItem extends HTMLElement {
   constructor() {
     super();
-  }
+}
 
   connectedCallback() {
     const template = document.getElementById("product-item-template");
